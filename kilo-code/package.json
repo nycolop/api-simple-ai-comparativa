@@ -1,0 +1,17 @@
+{
+  "name": "hello-api",
+  "version": "1.0.0",
+  "description": "Simple Express API with a GET /hello endpoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha tests/**/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.0",
+    "supertest": "^7.1.0"
+  }
+}
